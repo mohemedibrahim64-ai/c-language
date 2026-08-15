@@ -1,13 +1,15 @@
 #include <stdio.h>
 int main(){
-    int a;
-    int b;
-    char c;
-    printf("enter your first number");
-    scanf("%d",&a);
-    printf("enter your opperater");
-    scanf(" %c",&c);
-    printf("enter your second number");
-    scanf("%d",&b);
+    int item;
+    int rate;
+    int quantity;
+    printf("--------Welcome to the ammerican super market-------\n");
+    printf("--------our products---------\n");
+    printf("1.Apple\n2.Orange\n3.Banana\nTo select a item press the number");
+scanf("%d",&item);
+if (item ==1){
+    printf("");
+}
+
 
 }
