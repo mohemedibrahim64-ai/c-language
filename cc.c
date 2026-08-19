@@ -36,7 +36,7 @@ int main() {
         } else {
             printf("Grade: F (Needs Improvement / Fail)\n");
         }
-        printf("---------------------------\n");
+        printf("-------------ok--------------\n");
     }
 
     return 0;
