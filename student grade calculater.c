@@ -1,23 +1,20 @@
 #include <stdio.h>
 int main(){
     int time;
-printf("enter the time according to ist:");
+    printf("welcome to the day\n");
     scanf("%d",&time);
-    if (time >=1&& time<=5){
-        printf ("its early morning");
-        printf("good morning ");
+    if (time<=11){
+        printf("very good morning");
+
     }
-    else if(time>=12&&time<16){
+    if(time >=12){
+        printf("good after noon");
     }
-    else if (time >=6&&time <=11)
-    {
-        printf("good afternoon");
+    if (time =6){
+        printf("good evening");
+
     }
-    else if(time>=16&&time<=18){
-        printf ("good evening");
-    }
-    else{
+    else {
         printf("good night");
     }
-    
 }
