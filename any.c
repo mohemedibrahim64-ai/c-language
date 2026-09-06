@@ -1,16 +1,20 @@
 #include <stdio.h>
 int main(){
-    char section;
-    int year;
-    int age;
-    printf ("enter your section\n");
-    scanf(" %c",&section);
-    printf("enter your year\n");
-    scanf("%d",&year);
-    printf("enter your age\n");
-    scanf("%d",&age);
-    printf("your section is:%C\n",section);
-    printf("your year is:%d\n",year);
-    printf("your age is:%d\n",age);
-return 0;
+    int time;
+    printf("welcome to the day\n");
+    scanf("%d",&time);
+    if (time<=11){
+        printf("very good morning");
+
+    }
+    if(time >=12){
+        printf("good after noon");
+    }
+    if (time =6){
+        printf("good evening");
+
+    }
+    else {
+        printf("good night");
+    }
 }
