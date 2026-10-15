@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 int main() {
-    int a, b;
+    // Declare an array of 6 characters
+    char m[6];
+
+    printf("Enter");
     
-    scanf("%d %d", &a, &b);
-        printf("%d\n", a < b);
-        printf("%d\n", a <= b);
-        printf("%d\n", a > b);
-        printf("%d\n", a >= b);
-        printf("%d\n", a == b);
-        printf("%d\n", a != b);
-    
-    
+
+    scanf("%s", m);
+    for (int i = 0; i < 5; i++) {
+        printf("m[%d] = %c\n", i, m[i]);
+    }
+
     return 0;
 }
